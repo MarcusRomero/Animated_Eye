@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;    height: 40rem;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+
+.oeil{
+    width: 12rem;    height: 6rem;
+    background-color: white;
+    display: inline-block;
+    margin: 0.5rem;
+    border-radius: 40%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.pupille{
+    width: 2rem;    height: 2rem;
+    background-color: black;
+    border: 0.5rem solid paleturquoise;
+    border-radius: 50%;
+    position: relative;
+}
+
+    .gauche{
+        background-color: blue;
+        top: 25%;  left: 38%;
+    }
+
+    .droite{
+        background-color: red;
+        top: 25%;  left: 38%;
+    }
+
